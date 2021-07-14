@@ -42,8 +42,8 @@ This subtask will send a message to a Kafka topic (using the Cortex-Kafka Gatewa
 |Name| Type| M/O | Description|
 |----|-----|-----|------------|
 |**i_Message**|Text|O|The message to send. Note that one of **i_Message**, **i_Message-Structure** and **i_Message-List** must be provided
-|**i_Message-Structure**|Sructue|O|The message structure to send; this can be created using the subtask [CTX-Kafka-create-message-structure](#ctx-kafka-create-message-structure). Note that one of **i_Message**, **i_Message-Structure** and **i_Message-List** must be provided
-|**i_Message-List**|List|O|A list of message structures to send; each structure can be created using the subtask [CTX-Kafka-create-message-structure](#ctx-kafka-create-message-structure). Note that one of **i_Message**, **i_Message-Structure** and **i_Message-List** must be provided
+|**i_Message-Structure**|Sructue|O|The message structure to send; this can be created using the subtask [CTX-Kafka-Create-Message-Structure](#ctx-kafka-create-message-structure). Note that one of **i_Message**, **i_Message-Structure** and **i_Message-List** must be provided
+|**i_Message-List**|List|O|A list of message structures to send; each structure can be created using the subtask [CTX-Kafka-Create-Message-Structure](#ctx-kafka-create-message-structure). Note that one of **i_Message**, **i_Message-Structure** and **i_Message-List** must be provided
 |**i_Gateway-base-url**|Text|M|The Url (including the port) for the Cortex-Kafka Gateway
 |**i_Topic**|Text|M|The Kafka topic to which the message is posted
 |**i_Timeout**|Integer|O|The time to await a response in ms
